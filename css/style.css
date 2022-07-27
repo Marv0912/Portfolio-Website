@@ -1,0 +1,42 @@
+div {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.881);
+}
+
+.title {
+    width: 30%;
+
+}
+
+.intro {
+
+    justify-content: center;
+
+}
+
+.j {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.col {
+    text-align: center;
+    border-bottom: 2px solid rgb(10, 134, 243);
+
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+.p_img {
+    width: 80%;
+    border: 0.5px solid;
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 575px) {
+    .ctr {
+        text-align: center;
+    }
+}
