@@ -8,6 +8,8 @@
     <title> Marvin's Portfolio </title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="script.js"></script>
 </head>
 
 <body>
@@ -40,13 +42,13 @@
                     <!-- Home Bar -->
                     <div class="container">
                         <div class="row">
-                            <div class="col"><a href="Index.html">
+                            <div class="col"><a href="/Index.html">
                                     <div>Home</div>
                                 </a> </div>
-                            <div class="col"><a href="projects.html">
+                            <div class="col"><a href="/projects.html">
                                     <div>Projects</div>
                                 </a> </div>
-                            <div class="col"><a href="contactme.html">
+                            <div class="col"><a href="/contactme.html">
                                     <div>Contact Me</div>
                                 </a> </div>
                         </div>
@@ -57,68 +59,26 @@
 
             <br>
             <br>
+            <div id="swup" class="transition-fade">
+                <!-- Description -->
+                <h2 class="fw-light pb-4">Hello, I'm Marvin</h2>
 
-            <!-- Description -->
-            <h2 class="fw-light pb-4">Hello, I'm Marvin</h2>
-
-            <p class="j">I am currently developing the skills to become a software developer. The roadmap
-                I have for 5 years is to become a fullstack developer, mobile developer, and work with cloud
-                technologies. Currently I am pursuing a degree in Finance and economics. This way I am able
-                to pursue both my passions. With this one being my first project I am proud to say I have
-                a long way to go. </p>
-
-
-            <br>
-
-            <!-- Skillset Sidebar -->
-            <div class="offcanvas offcanvas-start" id="skillset">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title">Skills </h5>
-                    <button type="button" class="button-close" data-bs-dismiss="offcanvas"></button>
-                </div>
-
-                <div class="offcanvas-body">
-                    <ul>
-                        <!-- HTML -->
-                        <div class="container-m3-">
-                            <li>Html</li>
-                            <div class="progress">
-                                <div class="progress-bar" style="width:70%">70%</div>
-                            </div>
-                        </div>
-                        <!-- CSS -->
-                        <div class="container-m3">
-                            <li>CSS</li>
-                            <div class="progress">
-                                <div class="progress-bar" style="width:60%">60%</div>
-                            </div>
-                        </div>
-                        <!-- Javascript -->
-                        <div class="container-m3">
-                            <li>Javascript</li>
-                            <div class="progress">
-                                <div class="progress-bar" style="width:30%">30%</div>
-                            </div>
-                        </div>
-                        <!-- Bootstrap 5 -->
-                        <div class="container-m3">
-                            <li>Bootstrap 5</li>
-                            <div class="progress">
-                                <div class="progress-bar" style="width:30%">30%</div>
+                <p class="j">I am currently developing the skills to become a software developer. The roadmap
+                    I have for 5 years is to become a fullstack developer, mobile developer, and work with cloud
+                    technologies. Currently I am pursuing a degree in Finance and economics. This way I am able
+                    to pursue both my passions. With this one being my first project I am proud to say I have
+                    a long way to go. </p>
 
 
-                            </div>
-                        </div>
-                    </ul>
-                </div>
+                <br>
 
-            </div>
-            <!-- Skillset Button-->
-            <div class="container-fluid mt-3">
-                <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#skillset">
-                    Skillset Progress Bar
-                </button>
+                <!-- Skillset Sidebar -->
+                <div class="offcanvas offcanvas-start" id="skillset">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">Skills </h5>
+                        <button type="button" class="button-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+
             </div>
         </div>
         <br>

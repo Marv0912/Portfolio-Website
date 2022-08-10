@@ -8,6 +8,8 @@
     <title> Contact Me </title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="script.js"></script>
 </head>
 
 <body>
@@ -42,13 +44,13 @@
                     <!-- Home Bar -->
                     <div class="container-sm">
                         <div class="row" style="padding-bottom: 1px;">
-                            <div class="col"><a href="Index.html">
+                            <div class="col"><a href="/Index.html">
                                     <div>Home</div>
                                 </a> </div>
-                            <div class="col"><a href="projects.html">
+                            <div class="col"><a href="/projects.html">
                                     <div>Projects</div>
                                 </a> </div>
-                            <div class="col"><a href="contactme.html">
+                            <div class="col"><a href="/contactme.html">
                                     <div>Contact Me</div>
                                 </a> </div>
                         </div>
@@ -60,33 +62,35 @@
             <br>
             <br>
             <br>
-            <!-- Contact Me Page -->
-            <div class="container">
-                <div class="row">
-                    <h1 class="fw-light">Contact Me:</h1>
+            <div id="swup" class="transition-fade">
+                <!-- Contact Me Page -->
+                <div class="container">
+                    <div class="row">
+                        <h1 class="fw-light">Contact Me:</h1>
 
-                    <form action="" method="" class="">
-                        <label for="name"></label>
-                        <input type="text" placeholder="Name" name="name" id="name" class="col-12">
-                        <br>
-                        <br>
-                        <label for="Email"></label>
-                        <input type="email" placeholder="Email" name="" id="" class="col-12">
-                        <br>
-                        <br>
-                        <label for="Description"></label>
-                        <br>
-                        <textarea name="Description" id="Description" rows="3" placeholder="Message"
-                            class="col-12 secondary-outline"></textarea>
+                        <form action="" method="" class="">
+                            <label for="name"></label>
+                            <input type="text" placeholder="Name" name="name" id="name" class="col-12">
+                            <br>
+                            <br>
+                            <label for="Email"></label>
+                            <input type="email" placeholder="Email" name="" id="" class="col-12">
+                            <br>
+                            <br>
+                            <label for="Description"></label>
+                            <br>
+                            <textarea name="Description" id="Description" rows="3" placeholder="Message"
+                                class="col-12 secondary-outline"></textarea>
 
-                        <br>
-                        <div class="text-center">
-                            <button class="btn btn-outline-primary" type="submit">send</button>
-                        </div>
+                            <br>
+                            <div class="text-center">
+                                <button class="btn btn-outline-primary" type="submit">send</button>
+                            </div>
 
 
 
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
